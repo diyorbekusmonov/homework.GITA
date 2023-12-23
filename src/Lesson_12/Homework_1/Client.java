@@ -7,11 +7,11 @@ public class Client {
 
     private final int costCAll;
     private final int costSMS;
-    public int minutCall;
-    public int countSMS;
-    public int addedBalans;
-    public int balans;
-    public boolean temp = true;
+    private int minutCall;
+    private int countSMS;
+    private int addedBalans;
+    private int balans;
+    private boolean temp = true;
 
     public Client(int costCAll, int costSMS, int balans) {
         this.costCAll = costCAll;

@@ -4,29 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3b45dbe-e761-4e43-a865-c956b2271926" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework.GITA.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson_12/Homework_1/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson_12/Homework_1/Client_Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson_12/Homework_2/Car/Captiva.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson_12/Homework_2/Car/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson_12/Homework_2/Car/Car_Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson_12/Homework_2/Car/Malibu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson_12/Homework_2/Computer/Acer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson_12/Homework_2/Computer/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson_12/Homework_2/Computer/Computer_Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson_12/Homework_2/Computer/HP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson_12/Homework_2/Computer/MSI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson_12/Homework_2/Shape/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson_12/Homework_2/Shape/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson_12/Homework_2/Shape/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson_12/Homework_2/Shape/Shape_Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="b3b45dbe-e761-4e43-a865-c956b2271926" name="Changes" comment="START">
+      <change afterPath="$PROJECT_DIR$/src/Lesson_12/Homework_2/Shape/Shape_Interface/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_12/Homework_2/Shape/Shape_Interface/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_12/Homework_2/Shape/Shape_Interface/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_12/Homework_2/Shape/Shape_Interface/Shape_Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_12/Homework_1/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_12/Homework_1/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -62,7 +47,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Computer_Main">
+  <component name="RunManager" selected="Application.Lesson_12.Homework_2.Shape.Shape_Interface.Shape_Main">
     <configuration name="Car_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson_12.Homework_2.Car.Car_Main" />
       <module name="Homework.GITA" />
@@ -102,12 +87,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Shape_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_12.Homework_2.Shape.Shape_Main" />
+    <configuration name="Lesson_12.Homework_2.Shape.Shape_Interface.Shape_Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_12.Homework_2.Shape.Shape_Interface.Shape_Main" />
       <module name="Homework.GITA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_12.Homework_2.Shape.*" />
+          <option name="PATTERN" value="Lesson_12.Homework_2.Shape.Shape_Interface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson_12.Homework_2.Shape.Shape_Interface.Shape_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_12.Homework_2.Shape.Shape_Interface.Shape_Main" />
+      <module name="Homework.GITA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson_12.Homework_2.Shape.Shape_Interface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,10 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lesson_12.Homework_2.Shape.Shape_Interface.Shape_Main" />
+        <item itemvalue="Application.Lesson_12.Homework_2.Shape.Shape_Interface.Shape_Main (1)" />
+        <item itemvalue="Application.Client_Main" />
         <item itemvalue="Application.Computer_Main" />
         <item itemvalue="Application.Car_Main" />
-        <item itemvalue="Application.Shape_Main" />
-        <item itemvalue="Application.Client_Main" />
       </list>
     </recent_temporary>
   </component>
@@ -133,6 +132,19 @@
       <option name="presentableId" value="Default" />
       <updated>1703189195156</updated>
     </task>
+    <task id="LOCAL-00001" summary="START">
+      <option name="closed" value="true" />
+      <created>1703240420271</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703240420271</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="START" />
+    <option name="LAST_COMMIT_MESSAGE" value="START" />
   </component>
 </project>
