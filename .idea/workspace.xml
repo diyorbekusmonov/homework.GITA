@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3b45dbe-e761-4e43-a865-c956b2271926" name="Changes" comment="START">
-      <change afterPath="$PROJECT_DIR$/src/Lesson_12/Homework_2/Shape/Shape_Interface/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson_12/Homework_2/Shape/Shape_Interface/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson_12/Homework_2/Shape/Shape_Interface/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson_12/Homework_2/Shape/Shape_Interface/Shape_Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_12/Homework_1/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_12/Homework_1/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +42,13 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Lesson_12.Homework_2.Shape.Shape_Interface.Shape_Main">
-    <configuration name="Car_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_12.Homework_2.Car.Car_Main" />
+  <component name="RunManager" selected="Application.Calculator">
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_12.Calculator.Calculator" />
       <module name="Homework.GITA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_12.Homework_2.Car.*" />
+          <option name="PATTERN" value="Lesson_12.Calculator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.Lesson_12.Homework_2.Shape.Shape_Interface.Shape_Main" />
         <item itemvalue="Application.Lesson_12.Homework_2.Shape.Shape_Interface.Shape_Main (1)" />
         <item itemvalue="Application.Client_Main" />
         <item itemvalue="Application.Computer_Main" />
-        <item itemvalue="Application.Car_Main" />
       </list>
     </recent_temporary>
   </component>
