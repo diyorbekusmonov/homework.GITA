@@ -14,4 +14,5 @@ public class Captiva extends Car{
     int getMaxOilFromREfill(int fuelCapacity) {
         return fuelCapacity-getBusyCapacity();
     }
+
 }

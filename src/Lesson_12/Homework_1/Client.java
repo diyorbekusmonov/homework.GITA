@@ -9,7 +9,6 @@ public class Client {
     private final int costSMS;
     private int minutCall;
     private int countSMS;
-    private int addedBalans;
     private int balans;
     private boolean temp = true;
 
@@ -35,21 +34,17 @@ public class Client {
         while (!isActive()) {
             if (!temp) {
                 System.out.print("Balansni to'ldiring: ");
-                addedBalans = in.nextInt();
+                int addedBalans = in.nextInt();
                 balans += addedBalans;
             }
         }
     }
 
     public void call(int callMinut) {
-        if (balans / (costCAll * callMinut) >= 1) {
-            System.out.println(true);
-        }else System.out.println(false);
+        System.out.println(balans / (costCAll * callMinut) >= 1);
     }
 
     public void  sms(int smsCount) {
-        if (balans / (costSMS * smsCount) >= 1) {
-            System.out.println(true);
-        }else System.out.println(false);
+        System.out.println(balans / (costSMS * smsCount) >= 1);
     }
 }

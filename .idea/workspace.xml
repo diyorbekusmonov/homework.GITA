@@ -5,7 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3b45dbe-e761-4e43-a865-c956b2271926" name="Changes" comment="START">
+      <change afterPath="$PROJECT_DIR$/src/Enums/Homework_1/Seasons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Enums/Homework_1/Seasons_Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Enums/Homework_2/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Enums/Homework_2/Animal_Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_13/Icecream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_13/Milk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_13/Piece.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_13/Resept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_13/Sugar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_14/Homework_1/Battery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_14/Homework_1/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_14/Homework_1/Car_Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_14/Homework_2/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_14/Homework_2/BookShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_14/Homework_2/BookShop_Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_12/Homework_1/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_12/Homework_1/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_12/Homework_2/Car/Captiva.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_12/Homework_2/Car/Captiva.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_12/Homework_2/Computer/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_12/Homework_2/Computer/Computer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,12 +34,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Lesson_14/Homework_1/Car_Main.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -39,16 +62,35 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Hp/IdeaProjects/Homework.GITA/src/Lesson_12&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Calculator">
-    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_12.Calculator.Calculator" />
+  <component name="ReadonlyStatusHandler">
+    <option name="SHOW_DIALOG" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Hp\IdeaProjects\Homework.GITA\src\Lesson_12" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Animal_Main">
+    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A" />
+      <module name="Homework.GITA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Animal_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Enums.Homework_2.Animal_Main" />
       <module name="Homework.GITA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_12.Calculator.*" />
+          <option name="PATTERN" value="Enums.Homework_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -56,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_12.Homework_1.Client_Main" />
+    <configuration name="BookShop_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_14.Homework_2.BookShop_Main" />
       <module name="Homework.GITA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_12.Homework_1.*" />
+          <option name="PATTERN" value="Lesson_14.Homework_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Computer_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_12.Homework_2.Computer.Computer_Main" />
+    <configuration name="Lesson_14.Homework_1.Car_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_14.Homework_1.Car_Main" />
       <module name="Homework.GITA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_12.Homework_2.Computer.*" />
+          <option name="PATTERN" value="Lesson_14.Homework_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,25 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lesson_12.Homework_2.Shape.Shape_Interface.Shape_Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_12.Homework_2.Shape.Shape_Interface.Shape_Main" />
+    <configuration name="Seasons_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Enums.Homework_1.Seasons_Main" />
       <module name="Homework.GITA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_12.Homework_2.Shape.Shape_Interface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lesson_12.Homework_2.Shape.Shape_Interface.Shape_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_12.Homework_2.Shape.Shape_Interface.Shape_Main" />
-      <module name="Homework.GITA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson_12.Homework_2.Shape.Shape_Interface.*" />
+          <option name="PATTERN" value="Enums.Homework_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Calculator" />
-        <item itemvalue="Application.Lesson_12.Homework_2.Shape.Shape_Interface.Shape_Main" />
-        <item itemvalue="Application.Lesson_12.Homework_2.Shape.Shape_Interface.Shape_Main (1)" />
-        <item itemvalue="Application.Client_Main" />
-        <item itemvalue="Application.Computer_Main" />
+        <item itemvalue="Application.Animal_Main" />
+        <item itemvalue="Application.Seasons_Main" />
+        <item itemvalue="Application.A" />
+        <item itemvalue="Application.Lesson_14.Homework_1.Car_Main" />
+        <item itemvalue="Application.BookShop_Main" />
       </list>
     </recent_temporary>
   </component>
@@ -135,11 +164,29 @@
       <option name="project" value="LOCAL" />
       <updated>1703240420271</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="START">
+      <option name="closed" value="true" />
+      <created>1703434441396</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703434441396</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="START" />
     <option name="LAST_COMMIT_MESSAGE" value="START" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
