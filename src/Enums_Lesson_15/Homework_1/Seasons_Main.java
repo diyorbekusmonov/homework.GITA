@@ -1,4 +1,4 @@
-package Enums.Homework_1;
+package Enums_Lesson_15.Homework_1;
 
 import java.util.Scanner;
 

@@ -1,6 +1,4 @@
-package Enums.Homework_1;
-
-import Lesson_13.Sugar;
+package Enums_Lesson_15.Homework_1;
 
 public enum Seasons {
     SPRING {

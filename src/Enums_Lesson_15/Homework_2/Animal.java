@@ -1,4 +1,4 @@
-package Enums.Homework_2;
+package Enums_Lesson_15.Homework_2;
 
 public enum Animal {
     DOG() {

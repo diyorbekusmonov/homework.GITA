@@ -1,9 +1,8 @@
-package Enums.Homework_2;
+package Enums_Lesson_15.Homework_2;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
-import static Enums.Homework_2.Animal.*;
+import static Enums_Lesson_15.Homework_2.Animal.*;
 
 public class Animal_Main {
     public static void main(String[] args) {

@@ -1,6 +1,7 @@
 package Lesson_18.Task_2;
 
 
+import java.util.LinkedHashSet;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -31,7 +32,8 @@ public class Football {
         tennisPlayers.add("Akbar");
 
         futballPlayers.removeAll(tennisPlayers);
-        System.out.println(futballPlayers);
-        System.out.println(tennisPlayers.size()+futballPlayers.size());
+        System.out.println("futball players: " + futballPlayers);
+        System.out.println(tennisPlayers.size() + futballPlayers.size());
+        LinkedHashSet<String>st=LinkedHashSet.newLinkedHashSet(0);
     }
 }
