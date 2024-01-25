@@ -5,25 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3b45dbe-e761-4e43-a865-c956b2271926" name="Changes" comment="START">
-      <change afterPath="$PROJECT_DIR$/src/Lesson_19/Actions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson_19/DeluxeBurgerr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson_19/Hamburger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson_19/HealthyBurgerr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson_19/KingBurgers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson_21/hamburger/DeluxeBurger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson_21/hamburger/HealthyBurger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson_21/product/Products.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SocialNetwork/DB/SocialRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SocialNetwork/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SocialNetwork/ShowData/ShowInfoInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SocialNetwork/ShowData/ShowMessageinterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SocialNetwork/Videos/UserData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SocialNetwork/Videos/VideoData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Enums/Homework_1/Seasons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enums_Lesson_15/Homework_1/Seasons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Enums/Homework_1/Seasons_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enums_Lesson_15/Homework_1/Seasons_Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Enums/Homework_2/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enums_Lesson_15/Homework_2/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Enums/Homework_2/Animal_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enums_Lesson_15/Homework_2/Animal_Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lesson_18/ATM/ATM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_18/ATM/ATM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_18/ATM/ATM_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_18/ATM/ATM_Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_18/ATM/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_18/ATM/Money.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_18/Task_2/Football.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_18/Task_2/Football.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,20 +70,7 @@
       <recent name="C:\Users\Hp\IdeaProjects\Homework.GITA\src\Lesson_12" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lesson_21.Main">
-    <configuration name="Football" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_18.Task_2.Football" />
-      <module name="Homework.GITA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson_18.Task_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SocialNetwork.Main">
     <configuration name="Lesson_19_1.Lesson_21.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson_19_1.Lesson_21.Main" />
       <module name="Homework.GITA" />
@@ -141,13 +117,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SocialNetwork.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SocialNetwork.Main" />
+      <module name="Homework.GITA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SocialNetwork.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SocialNetwork.Main" />
         <item itemvalue="Application.Lesson_21.Main" />
         <item itemvalue="Application.Lesson_19_1.Lesson_21.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Seasons_Main" />
-        <item itemvalue="Application.Football" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +181,31 @@
       <option name="project" value="LOCAL" />
       <updated>1705667352129</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="START">
+      <option name="closed" value="true" />
+      <created>1706121898311</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706121898311</updated>
+    </task>
+    <task id="LOCAL-00006" summary="START">
+      <option name="closed" value="true" />
+      <created>1706121963701</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706121963701</updated>
+    </task>
+    <task id="LOCAL-00007" summary="START">
+      <option name="closed" value="true" />
+      <created>1706122060117</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1706122060117</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

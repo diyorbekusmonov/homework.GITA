@@ -33,7 +33,7 @@ public class ATM {
 
     public void addMoneys(List<Money> moneys, boolean isMoneys) {
         summ.add((Money) moneys);
-        if (isMoneys){
+        if (isMoneys) {
             showMoneyInfoInterface.showMoneyData(money.getAmount(), money.getCount());
         }
         messageInterface.showMessage(moneys + "sum qo'shildi");
