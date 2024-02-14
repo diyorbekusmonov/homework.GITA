@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3b45dbe-e761-4e43-a865-c956b2271926" name="Changes" comment="START">
-      <change afterPath="$PROJECT_DIR$/src/SocialNetwork/DB/SocialRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SocialNetwork/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SocialNetwork/ShowData/ShowInfoInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SocialNetwork/ShowData/ShowMessageinterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SocialNetwork/Videos/UserData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SocialNetwork/Videos/VideoData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Building_Pattern/ConcreteResidenceBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Building_Pattern/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Building_Pattern/Residence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Building_Pattern/ResidenceBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Building_Pattern/ResidenceDirector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_18/ATM/ATM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_18/ATM/ATM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SocialNetwork/DB/SocialRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SocialNetwork/DB/SocialRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SocialNetwork/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SocialNetwork/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SocialNetwork/ShowData/ShowMessageinterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SocialNetwork/ShowData/ShowMessageinterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +31,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -69,8 +76,24 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Hp\IdeaProjects\Homework.GITA\src\Lesson_12" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.SocialNetwork.Main">
+  <component name="RunManager" selected="Application.Building_Pattern.Main">
+    <configuration name="Building_Pattern.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Building_Pattern.Main" />
+      <module name="Homework.GITA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Building_Pattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Lesson_19_1.Lesson_21.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson_19_1.Lesson_21.Main" />
       <module name="Homework.GITA" />
@@ -97,19 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Homework.GITA" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Seasons_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Enums_Lesson_15.Homework_1.Seasons_Main" />
+    <configuration name="SocialNetwork.Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SocialNetwork.Main" />
       <module name="Homework.GITA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Enums_Lesson_15.Homework_1.*" />
+          <option name="PATTERN" value="SocialNetwork.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SocialNetwork.Main" />
+        <item itemvalue="Application.Building_Pattern.Main" />
         <item itemvalue="Application.Lesson_21.Main" />
+        <item itemvalue="Application.SocialNetwork.Main" />
+        <item itemvalue="Application.SocialNetwork.Main (1)" />
         <item itemvalue="Application.Lesson_19_1.Lesson_21.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Seasons_Main" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +221,23 @@
       <option name="project" value="LOCAL" />
       <updated>1706122060117</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="START">
+      <option name="closed" value="true" />
+      <created>1706186961885</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1706186961885</updated>
+    </task>
+    <task id="LOCAL-00009" summary="START">
+      <option name="closed" value="true" />
+      <created>1706187043009</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1706187043009</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

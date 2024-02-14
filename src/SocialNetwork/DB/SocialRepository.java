@@ -22,30 +22,32 @@ public class SocialRepository {
         return instance;
     }
 
-    private boolean hasShowListener() {
-        return showInfoInterface != null;
-    }
-
-    private boolean hasMessageListener() {
-        return showMessageinterface != null;
-    }
 
     public void setShowInfoInterface(ShowInfoInterface showListener) {
-        if (!hasShowListener()) {
+        if (showInfoInterface == null) {
             this.showInfoInterface = showListener;
         }
     }
 
     public void setShowMessageInterface(ShowMessageinterface messageListener) {
-        if (!hasMessageListener()) {
+        if (showMessageinterface == null) {
             this.showMessageinterface = messageListener;
         }
     }
 
+    @Override
+    public String toString() {
+        return "SocialRepository{videoDB=" + videoDB +
+                '}';
+    }
+
     public void addVideo(UserData user, VideoData videoData) {
-        if (!videoData.equals(videoDB)){
-            videoDB.add(videoData);
-            setShowMessageInterface(showMessageinterface.showMessage("Video muvaffaqiyatli joylandi"));
-        }else setShowMessageInterface(showMessageinterface.showMessage("Bu video mavjud"));
+        // if (!(videoDB.equals(user))) {
+        videoDB.add(videoData);
+        showMessageinterface.showMessage("Video muvaffaqiyatli joylandi");
+        //showMessageinterface.showMessage("Bu video mavjud");
+        showMessageinterface = null;
+
     }
 }
+
