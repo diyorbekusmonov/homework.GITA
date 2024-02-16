@@ -4,7 +4,6 @@ public interface ResidenceBuilder {
     enum ResidenceType {
         HOME, HOTEL, APARTMENT
     }
-
     void setResidenceType(ResidenceType residenceType);
 
     void setCost(int cost);

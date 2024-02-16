@@ -4,16 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3b45dbe-e761-4e43-a865-c956b2271926" name="Changes" comment="START">
-      <change afterPath="$PROJECT_DIR$/src/Building_Pattern/ConcreteResidenceBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Building_Pattern/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Building_Pattern/Residence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Building_Pattern/ResidenceBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Building_Pattern/ResidenceDirector.java" afterDir="false" />
+    <list default="true" id="b3b45dbe-e761-4e43-a865-c956b2271926" name="Changes" comment="Builder">
+      <change afterPath="$PROJECT_DIR$/src/SOLID/O/Phones/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/O/Phones/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/O/Phones/PhoneSale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/O/Phones/Phones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/O/Phones/Samsung.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/O/Phones/Xiaomi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/S/CalendarApp/AddEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/S/CalendarApp/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/S/CalendarApp/Today.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/S/ClockApp/Alarms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/S/ClockApp/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/S/ClockApp/StopWatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/S/ClockApp/Timers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/S/ClockApp/WorldClock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SocialNetwork/DB/SocialRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SocialNetwork/DB/SocialRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SocialNetwork/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SocialNetwork/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SocialNetwork/ShowData/ShowMessageinterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SocialNetwork/ShowData/ShowMessageinterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Building_Pattern/ResidenceBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Building_Pattern/ResidenceBuilder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,26 +87,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Building_Pattern.Main">
+  <component name="RunManager" selected="Application.SOLID.O.Phones.Main">
     <configuration name="Building_Pattern.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Building_Pattern.Main" />
       <module name="Homework.GITA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Building_Pattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lesson_19_1.Lesson_21.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_19_1.Lesson_21.Main" />
-      <module name="Homework.GITA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson_19_1.Lesson_21.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SocialNetwork.Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SocialNetwork.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SOLID.S.S1.CalendarApp.Main" />
       <module name="Homework.GITA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SocialNetwork.*" />
+          <option name="PATTERN" value="SOLID.S.S1.CalendarApp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +127,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SocialNetwork.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SocialNetwork.Main" />
+    <configuration name="SOLID.O.Phones.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SOLID.O.Phones.Main" />
       <module name="Homework.GITA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SocialNetwork.*" />
+          <option name="PATTERN" value="SOLID.O.Phones.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SOLID.S.ClockApp.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SOLID.S.ClockApp.Main" />
+      <module name="Homework.GITA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SOLID.S.ClockApp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SOLID.O.Phones.Main" />
+        <item itemvalue="Application.SOLID.S.ClockApp.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Building_Pattern.Main" />
         <item itemvalue="Application.Lesson_21.Main" />
-        <item itemvalue="Application.SocialNetwork.Main" />
-        <item itemvalue="Application.SocialNetwork.Main (1)" />
-        <item itemvalue="Application.Lesson_19_1.Lesson_21.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -237,12 +244,29 @@
       <option name="project" value="LOCAL" />
       <updated>1706187043009</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Builder">
+      <option name="closed" value="true" />
+      <created>1707915398184</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1707915398184</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Builder">
+      <option name="closed" value="true" />
+      <created>1707915425462</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1707915425462</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="START" />
-    <option name="LAST_COMMIT_MESSAGE" value="START" />
+    <MESSAGE value="Builder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Builder" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
